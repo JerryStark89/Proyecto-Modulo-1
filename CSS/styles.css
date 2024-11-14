@@ -1,0 +1,75 @@
+/* Estilo del fondo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./Fondos/universo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.schedule-container {
+    background-color: #1a1f36; 
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+}
+
+.schedule-container h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.trip {
+    border: 1px solid #fff8f8;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.trip img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(19, 1, 1, 0.2)
+}
+.trip-info {
+    flex-grow: 1;
+}
+.trip h3 {
+    margin: 1;
+    color: #ffffff;
+}
+.trip p {
+    margin: 40px 0;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+/*Estilo de los botones */
+.learn-more-button {
+    background-color: #0b7ad4;
+    color: #fff;
+    padding: 85px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* Estilo del boton al posicionar*/
+.learn-more-button:hover {
+    background-color: #8b0505;
+}
