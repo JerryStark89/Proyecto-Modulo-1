@@ -23,13 +23,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
 }
 
+/* Estilo del titulo*/
 .schedule-container h1 {
     text-align: center;
     color: #ffffff;
 }
-
+/* Estilo de contenedor de informacion */
 .trip {
-    border: 1px solid #fff8f8;
+    border: 1px solid #fff8f8ea;
     border-radius: 15px;
     padding: 10px;
     margin: 20px 0;
